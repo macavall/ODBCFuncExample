@@ -20,7 +20,7 @@ namespace OdbcFunc2
         {
             log.LogInformation("C# HTTP trigger function processed a request.");
 
-            // inititiate odbc connection string into string variable
+            // inititiate odbc connection string into string variable 
             var connectionString = "Driver={ODBC Driver 18 for SQL Server};Server=tcp:casecountserver.database.windows.net,1433;Database=EngineerCountDB8;Uid=casecountuser;Pwd={Password};Encrypt=yes;TrustServerCertificate=no;Connection Timeout=30;";
             string query = "SELECT * FROM MemberBook1";
 
